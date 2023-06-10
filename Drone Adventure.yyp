@@ -34,9 +34,11 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"obj_drone","path":"objects/obj_drone/obj_drone.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},},
+    {"id":{"name":"spr_drone","path":"sprites/spr_drone/spr_drone.yy",},},
     {"id":{"name":"rom_main","path":"rooms/rom_main/rom_main.yy",},},
   ],
   "RoomOrderNodes": [

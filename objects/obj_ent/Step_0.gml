@@ -12,5 +12,10 @@ var vimp = vphys + (vfight || abs(vspeed) < max_ctrl ? vctrl * ctrl_mult : 0)
 hspeed += himp - sign(hspeed) * drag
 vspeed += vimp - sign(vspeed) * drag
 
-hspeed = abs(hspeed) > 1 ? hspeed : 0
-vspeed = abs(vspeed) > 1 ? vspeed : 0
+var zero = abs(hspeed) + abs(vspeed) < 1.5
+hspeed = zero ? 0 : hspeed
+vspeed = zero ? 0 : vspeed
+
+//reset physics impulses.
+hphys = 0
+vphys = 0

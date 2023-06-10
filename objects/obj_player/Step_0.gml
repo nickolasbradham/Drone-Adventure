@@ -1,4 +1,5 @@
-/// @description Move
+/// @description Movement physics
+
 hctrl = keyboard_check(vk_right) - keyboard_check(vk_left)
 vctrl = keyboard_check(vk_down) - keyboard_check(vk_up)
 event_inherited()
