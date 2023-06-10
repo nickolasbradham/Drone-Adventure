@@ -28,3 +28,6 @@ case HOLD:
 
 // Inherit the parent event
 event_inherited()
+
+image_alpha = fade ? .3 : 1
+fade = false
