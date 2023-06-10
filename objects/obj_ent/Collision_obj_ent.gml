@@ -1,4 +1,6 @@
 /// @description Push Away
-var hvec = x - other.x, vvec = y - other.y
-hphys += hvec * col_mult / max(hvec, vvec)
-vphys += vvec * col_mult / max(hvec, vvec)
+if(other.layer == layer){
+	var hvec = x - other.x, vvec = y - other.y, l = point_distance(x, y, other.x, other.y)
+	hphys += hvec * col_mult / l
+	vphys += vvec * col_mult / l
+}

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},"propertyId":{"name":"max_ctrl","path":"objects/obj_ent/obj_ent.yy",},"value":"5",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},"propertyId":{"name":"ctrl_mult","path":"objects/obj_ent/obj_ent.yy",},"value":"5",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},"propertyId":{"name":"drag","path":"objects/obj_ent/obj_ent.yy",},"value":"1.5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},"propertyId":{"name":"ctrl_mult","path":"objects/obj_ent/obj_ent.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ent","path":"objects/obj_ent/obj_ent.yy",},"propertyId":{"name":"drag","path":"objects/obj_ent/obj_ent.yy",},"value":"2.5",},
   ],
   "parent": {
     "name": "Objects",
