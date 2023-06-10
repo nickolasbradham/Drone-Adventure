@@ -8,12 +8,12 @@ case PICK_OFFSET:
 	break
 
 case MOVE_TO_OFFSET:
-	var target_x = obj_player.x + hoff, target_y = obj_player.y + voff, d = point_distance(x, y, target_x, target_y), spd = abs(sqrt(hspeed * hspeed + vspeed * vspeed))
+	var target_x = obj_player.x + hoff, target_y = obj_player.y + voff, d = point_distance(x, y, target_x, target_y), spd = sqrt(hspeed * hspeed + vspeed * vspeed)
 	
 	if(d < 40 && spd < 2)
 		state = HOLD
 	
-	var h = (target_x - x) / d, v = (target_y - y) / d, spd = sqrt(hspeed * hspeed + vspeed * vspeed)
+	var h = (target_x - x) / d, v = (target_y - y) / d
 	hctrl = spd < d - 40 ? h : -h
 	vctrl = spd < d - 40 ? v : -v
 	
