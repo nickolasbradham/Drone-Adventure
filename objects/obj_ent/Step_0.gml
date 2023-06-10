@@ -4,8 +4,6 @@
 var himp = hphys + hctrl * ctrl_mult
 var vimp = vphys + vctrl * ctrl_mult
 
-//Add impulses - drag
-
 hspeed += himp - sign(hspeed) * drag
 vspeed += vimp - sign(vspeed) * drag
 
